@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffffff">
+<title>Güven 3 yapı Dekorasyon | Social Links</title>
+
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    min-height:100vh;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#fff;
+    color:#222;
+    display:flex;
+    justify-content:center;
+    padding:0 16px 28px;
+  }
+
+  .page{
+    width:100%;
+    max-width:480px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+  }
+
+  /* Decorative lines similar to the reference */
+  .decor{
+    height:105px;
+    position:relative;
+    overflow:hidden;
+  }
+  .decor:before,.decor:after{
+    content:"";
+    position:absolute;
+    width:135px;
+    height:80px;
+    top:0;
+    opacity:.28;
+    background:repeating-linear-gradient(
+      100deg,
+      transparent 0 10px,
+      #7b7b7b 11px 12px
+    );
+  }
+  .decor:before{left:-25px;transform:rotate(-3deg)}
+  .decor:after{right:-25px;transform:rotate(8deg)}
+
+  .profile{
+    margin-top:-55px;
+    position:relative;
+    z-index:2;
+  }
+
+  .avatar{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+    border:8px solid #fff;
+    box-shadow:0 1px 7px rgba(0,0,0,.08);
+    background:#eee;
+  }
+
+  h1{
+    margin:13px 0 7px;
+    font-size:27px;
+    font-weight:500;
+    letter-spacing:-.4px;
+  }
+
+  .role{
+    margin:0;
+    color:#888;
+    font-size:18px;
+    line-height:1.35;
+  }
+  .role strong{color:#555;font-weight:600}
+
+  .subtitle{
+    margin:18px 0 20px;
+    color:#8a8a8a;
+    font-size:17px;
+  }
+
+  .quick{
+    display:flex;
+    justify-content:center;
+    gap:14px;
+    margin-bottom:27px;
+  }
+
+  .quick a{
+    width:68px;
+    height:68px;
+    border:1px solid #d6d6d6;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    color:#111;
+    transition:.2s;
+    background:#fff;
+  }
+  .quick a:hover{transform:translateY(-2px);box-shadow:0 5px 15px rgba(0,0,0,.08)}
+  .quick svg{width:29px;height:29px}
+
+  .connect{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:70px;
+    border-radius:40px;
+    background:#000;
+    color:#fff;
+    text-decoration:none;
+    font-size:20px;
+    font-weight:600;
+    margin:0 0 20px;
+    transition:.2s;
+  }
+  .connect:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.16)}
+
+  .social-box{
+    background:#f1f1f3;
+    border-radius:30px 30px 0 0;
+    padding:38px 20px 32px;
+    min-height:360px;
+  }
+
+  .social-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:31px 15px;
+    align-items:start;
+  }
+
+  .social{
+    color:#666;
+    text-decoration:none;
+    font-size:16px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:9px;
+  }
+
+  .icon{
+    width:95px;
+    height:95px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    box-shadow:0 2px 6px rgba(0,0,0,.08);
+  }
+  .icon svg{width:55px;height:55px}
+  .instagram{background:linear-gradient(135deg,#6b2aa6,#e66b36,#f3c74e)}
+  .whatsapp{background:#43c95a}
+  .tiktok{background:#000}
+
+  .edit-note{
+    margin-top:20px;
+    color:#aaa;
+    font-size:12px;
+  }
+
+  @media(max-width:390px){
+    h1{font-size:24px}
+    .avatar{width:125px;height:125px}
+    .icon{width:82px;height:82px}
+    .icon svg{width:47px;height:47px}
+    .social{font-size:14px}
+  }
+</style>
+</head>
+
+<body>
+<main class="page">
+
+  <div class="decor"></div>
+
+  <section class="profile">
+    <!-- Replace profile.jpg with your own photo -->
+    <img class="avatar" src="güven3yapı.jpg" alt="güven3yapı.jpg">
+
+    <!-- CHANGE THESE TEXTS -->
+    <h1>Güven 3 yapı Dekorasyon</h1>
+    <p class="role">Support<br><strong>at Güven 3 yapı Dekorasyon</strong></p>
+    <p class="subtitle">Dekorasyon platform</p>
+
+    <div class="quick">
+      <!-- Phone -->
+      <a href="tel:+905389677732" aria-label="Call">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.8 19.8 0 0 1 3.08 5.18 2 2 0 0 1 5.05 3h3a2 2 0 0 1 2 1.72c.12.9.33 1.77.62 2.61a2 2 0 0 1-.45 2.11L8.95 10.7a16 16 0 0 0 4.35 4.35l1.26-1.27a2 2 0 0 1 2.11-.45c.84.29 1.71.5 2.61.62A2 2 0 0 1 22 16.92z"/>
+        </svg>
+      </a>
+
+      <!-- Email -->
+      <a href="mailto:guven3yapi@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <rect x="3" y="5" width="18" height="14" rx="2"/>
+          <path d="m3 7 9 6 9-6"/>
+        </svg>
+      </a>
+
+      <!-- Website -->
+      <a href="https://guven3yapi@gmail.com" target="_blank" rel="noopener" aria-label="Website">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M10 13a5 5 0 0 0 7.07.07l2-2A5 5 0 0 0 12 4l-1.14 1.14"/>
+          <path d="M14 11a5 5 0 0 0-7.07-.07l-2 2A5 5 0 0 0 12 20l1.14-1.14"/>
+        </svg>
+      </a>
+    </div>
+
+    <a class="connect" href="#social">Bize ulaşın</a>
+  </section>
+
+  <section class="social-box" id="social">
+    <div class="social-grid">
+
+      <!-- Instagram -->
+      <a class="social" href="https://www.instagram.com/guven3yapi/" target="_blank" rel="noopener">
+        <span class="icon instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.8">
+            <rect x="3" y="3" width="18" height="18" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="white" stroke="none"/>
+          </svg>
+        </span>
+        Instagram
+      </a>
+
+      <!-- WhatsApp -->
+      <a class="social" href="https://wa.me/905389677732" target="_blank" rel="noopener">
+        <span class="icon whatsapp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.7">
+            <path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4.1A8 8 0 1 1 20 11.5z"/>
+            <path d="M8.5 8.3c.3-.4.6-.4.9-.2l1 .7c.3.2.4.5.2.8l-.5.8c.7 1.2 1.4 1.8 2.6 2.4l.8-.5c.3-.2.6-.1.8.2l.7 1c.2.3.2.6-.1.9-.5.5-1.1.7-1.7.5-2.9-.7-5.3-3.1-6-6-.2-.6 0-1.2.5-1.6z"/>
+          </svg>
+        </span>
+        WhatsApp
+      </a>
+
+      <!-- TikTok -->
+      <a class="social tiktok-item" href="https://www.tiktok.com/@gven.3?_r=1&_t=ZS-9AAjYdHmEDc" target="_blank" rel="noopener">
+        <span class="icon tiktok">
+          <svg viewBox="0 0 24 24" fill="white">
+            <path d="M14 3h3c.2 1.5 1.1 2.8 2.5 3.6v3.1c-1.1-.1-2.1-.5-3-1.1v6.1a5.3 5.3 0 1 1-5.3-5.3c.4 0 .8 0 1.2.1v3.1a2.3 2.3 0 1 0 1.1 2.1V3z"/>
+          </svg>
+        </span>
+        TikTok
+      </a>
+
+    </div>
+  </section>
+
+  <p class="edit-note">Edit the links and text in index.html before publishing.</p>
+</main>
+</body>
+</html>
